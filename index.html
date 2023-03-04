@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  <!-- header section -->
+    <header>
+    <div class="header">
+      <h4>Blogging Website</h4>
+      <button id="createPost">Create New Post</button>
+    </div>
+  </header>
+
+  <main>
+
+   <!--this is main modal section -->
+    <div id="modal">
+      <div id="modal-content">
+        <img id="closeButton" class="cancel-img" src="x (1) 1.jpg" alt="cancel" onclick="closeForm()">
+        
+        <form>
+          <h1>Create a Post</h1>
+          <input type="text" id="headingBlog" placeholder="Enter Your heading....."
+          />
+          <textarea id="blogContent" placeholder="Enter Your Blog Post......"></textarea>
+          <div class="stylebtn">
+            <button id="save-btn">Publish Post</button>
+            <button id="cancelButton">Cancel Post</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="hiddenBlog"></div>
+  </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

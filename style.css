@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  background-color: chocolate;
+}
+
+.header{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+}
+
+h4{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+   padding-bottom: 10px;
+  }
+  
+
+#modal{
+  display: none;
+  padding: 100px;
+  margin: 50px;
+}
+
+.Edit{
+  display: none;
+}
+
+#modal-content{
+  background-color: yellowgreen;
+  padding: 50px;
+  width: 60%;
+}
+
+.blogMain h2{
+  margin: 5px 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  margin-bottom: 5px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  padding: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+
+textarea{
+  height: 150px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  margin-bottom: 10px;
+}
+
+#closeButton{
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+#blog-posts{
+  display: flex;
+  flex-direction: column;
+}
+
+.blogMain{
+  width: 70%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  height: 400px;
+  background-color: burlywood;
+}
+
+#headingBlog{
+    margin-bottom: 10px;
+}
+
+.blogMain p{
+  margin-top: 5px 10px;
+  font-size: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+}
+
+.dateTime{
+  text-align: end;
+}
+
+button{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
